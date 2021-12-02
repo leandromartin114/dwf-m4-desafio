@@ -24,10 +24,7 @@ function insertHeader(el) {
 			</li>
 		</ul>
 	</header>
-	<div class="welcome-section__content">
-	<h1 class="title">Hola</h1>
-	<h2 class="sub-title">Soy Lean</h2>
-</div>`;
+`;
 	el.appendChild(headerEl);
 }
 function openMenu() {

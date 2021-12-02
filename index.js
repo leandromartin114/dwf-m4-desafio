@@ -1,5 +1,5 @@
 function main() {
-	const headerContainer = document.querySelector(".welcome-section");
+	const headerContainer = document.querySelector(".header-section");
 	const formContainer = document.querySelector(".contact-section");
 	const footerContainer = document.querySelector(".footer");
 	insertHeader(headerContainer);
