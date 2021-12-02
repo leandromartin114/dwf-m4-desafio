@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.title {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+
+.sub-title {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+@media (min-width: 960px) {
+	.b {
+		color: black;
+	}
+	.xl {
+		font-size: 48px;
+	}
+}
+.black {
+	color: black;
+}
+.about-me-section {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@media (min-width: 960px) {
+	.about-me-section {
+		align-items: flex-end;
+	}
+}
+
+.about-me-section__image {
+	display: none;
+	width: 400px;
+	height: 400px;
+}
+@media (min-width: 960px) {
+	.about-me-section__image {
+		display: block;
+	}
+}
+.about-me-section__content {
+	width: 100%;
+	height: 538px;
+	padding: 55px 31px;
+	background-color: rgb(12, 3, 77);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+@media (min-width: 960px) {
+	.about-me-section__content {
+		background-color: white;
+		padding: 30px;
+		height: 400px;
+	}
+}
+.text {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	margin-top: 45px;
+	text-align: center;
+}
+@media (min-width: 960px) {
+	.text {
+		color: black;
+	}
+}
+.services-section {
+	padding: 70px 55px 55px 55px;
+}
+@media (min-width: 960px) {
+	.services-section {
+		background-color: rgb(223, 226, 248);
+	}
+}
+.services-section__content {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 50px;
+	justify-items: center;
+	align-items: center;
+	margin-top: 50px;
+}
+@media (min-width: 960px) {
+	.services-section__content {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.service-section__box {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+	justify-items: center;
+	align-items: center;
+}
+.service-section__image {
+	width: 138px;
+	height: 128px;
+}
+.service-section__title {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+.service-section__text {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+}
