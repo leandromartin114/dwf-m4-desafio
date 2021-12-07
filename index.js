@@ -6,5 +6,6 @@ function main() {
 	openMenu();
 	insertForm(formContainer);
 	insertFooter(footerContainer);
+	sendData();
 }
 main();
