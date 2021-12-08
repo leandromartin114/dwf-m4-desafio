@@ -7,5 +7,10 @@ function main() {
 	insertForm(formContainer);
 	insertFooter(footerContainer);
 	sendData();
+	getInfo().then((info) => {
+		for (const iterator of info) {
+			addInfo(iterator);
+		}
+	});
 }
 main();
